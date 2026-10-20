@@ -1,51 +1,83 @@
-# AiCode
+🌱 Garden Predictor (AiCode)
 
-Simple machine learning utility and GUI for training a perceptron model.
+A simple machine learning application for training and experimenting with a Perceptron model, featuring a graphical user interface (GUI) and utilities for data preprocessing and optimization.
 
-Project structure
+Developed as an academic project at An-Najah National University under the supervision of Dr. Emad Natsheh.
 
-- dataLoad.py — data loading and preprocessing helpers
-- gui.py — graphical user interface and entrypoint
-- Optimizer.py — optimization utilities
-- perceptronModel.py — perceptron model implementation
-- requirements.txt — Python dependencies
+✨ Features
 
-Prerequisites
+* Perceptron Model: Implementation of a perceptron for machine learning tasks.
+* Data Preprocessing: Utilities for loading and preparing datasets.
+* Optimization Utilities: Tools to support the model training process.
+* Graphical User Interface: A user-friendly GUI for interacting with the application.
+* Modular Architecture: Organized Python modules for easier maintenance and future development.
 
-- Python 3.8+ (recommended)
-- A virtual environment (optional but recommended)
+📁 Project Structure
 
-Quick start
+garden-predictor/
+├── dataLoad.py          # Data loading and preprocessing
+├── gui.py               # Graphical user interface and entry point
+├── Optimizer.py         # Optimization utilities
+├── perceptronModel.py   # Perceptron model implementation
+├── requirements.txt     # Python dependencies
+└── README.md            # Project documentation
 
-1. Activate your virtual environment (example):
+🛠️ Prerequisites
 
-```bash
+* Python 3.8 or later
+* pip (Python package installer)
+* A virtual environment (recommended)
+
+🚀 Getting Started
+
+1. Clone the Repository
+
+git clone <repository-url>
+cd garden-predictor
+
+2. Create a Virtual Environment
+
+python -m venv venv
+
+3. Activate the Virtual Environment
+
+Linux / macOS
+
 source venv/bin/activate
-```
 
-2. Install dependencies:
+Windows
 
-```bash
+venv\Scripts\activate
+
+4. Install Dependencies
+
 pip install -r requirements.txt
-```
 
-3. Run the GUI:
+5. Run the Application
 
-```bash
 python gui.py
-```
 
-Notes
+The graphical user interface will launch, allowing you to interact with the application.
 
-- If you already have a `venv` in the project root, activate it as shown above.
-- Adjust `requirements.txt` if you add new dependencies.
+🔮 Future Improvements
 
-Next steps
+* Add sample datasets and practical usage examples.
+* Provide a step-by-step Jupyter Notebook demonstrating model training.
+* Add automated tests to verify model behavior and data preprocessing.
+* Set up continuous integration (CI) for automated testing.
+* Improve the GUI and visualize training results.
+* Expand the application to support additional machine learning algorithms.
 
-- Add examples or sample dataset and a short usage notebook.
-- Add tests and CI configuration.
+🎓 Academic Acknowledgment
 
-License
+Institution: An-Najah National University
+Supervisor: Dr. Emad Natsheh
+Project: Garden Predictor (AiCode)
 
-MIT — feel free to modify.
-# garden-predictor
+Developed for academic and educational purposes.
+
+📄 License
+
+This project is licensed under the MIT License.
+
+You are free to use, modify, and distribute this software in accordance with the license terms.
